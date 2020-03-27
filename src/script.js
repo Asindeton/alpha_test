@@ -41,7 +41,7 @@ function getManyRate(date){
   if(!date){
     return
   }
-    fetch(`http://www.nbrb.by/API/ExRates/Rates?onDate=${date}&Periodicity=0`)
+    fetch(`https://www.nbrb.by/API/ExRates/Rates?onDate=${date}&Periodicity=0`)
       .then((response) => {
         return response.json();
       })
