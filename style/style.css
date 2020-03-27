@@ -1,0 +1,13 @@
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-area{
+    display: flex;
+}
+.input-area>div{
+    margin: 5px;
+}
